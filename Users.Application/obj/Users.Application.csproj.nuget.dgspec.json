@@ -30,6 +30,12 @@
             "projectReferences": {
               "C:\\Manoj\\Projects\\dotnet\\Users.Model\\Users.Model.csproj": {
                 "projectPath": "C:\\Manoj\\Projects\\dotnet\\Users.Model\\Users.Model.csproj"
+              },
+              "C:\\Manoj\\Projects\\dotnet\\UserService\\User.Repository\\Users.Repository.csproj": {
+                "projectPath": "C:\\Manoj\\Projects\\dotnet\\UserService\\User.Repository\\Users.Repository.csproj"
+              },
+              "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\Users.DbMigrator.csproj": {
+                "projectPath": "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\Users.DbMigrator.csproj"
               }
             }
           }
@@ -98,6 +104,147 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Manoj\\Projects\\dotnet\\UserService\\User.Repository\\Users.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Manoj\\Projects\\dotnet\\UserService\\User.Repository\\Users.Repository.csproj",
+        "projectName": "Users.Repository",
+        "projectPath": "C:\\Manoj\\Projects\\dotnet\\UserService\\User.Repository\\Users.Repository.csproj",
+        "packagesPath": "C:\\Users\\SHK0011\\.nuget\\packages\\",
+        "outputPath": "C:\\Manoj\\Projects\\dotnet\\UserService\\User.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHK0011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Manoj\\Projects\\dotnet\\Users.Model\\Users.Model.csproj": {
+                "projectPath": "C:\\Manoj\\Projects\\dotnet\\Users.Model\\Users.Model.csproj"
+              },
+              "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\Users.DbMigrator.csproj": {
+                "projectPath": "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\Users.DbMigrator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\Users.DbMigrator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\Users.DbMigrator.csproj",
+        "projectName": "Users.DbMigrator",
+        "projectPath": "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\Users.DbMigrator.csproj",
+        "packagesPath": "C:\\Users\\SHK0011\\.nuget\\packages\\",
+        "outputPath": "C:\\Manoj\\Projects\\dotnet\\UserService\\Users.DbMigrator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHK0011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Manoj\\Projects\\dotnet\\Users.Model\\Users.Model.csproj": {
+                "projectPath": "C:\\Manoj\\Projects\\dotnet\\Users.Model\\Users.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

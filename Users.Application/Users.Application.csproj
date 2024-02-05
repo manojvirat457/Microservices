@@ -11,6 +11,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Users.Model\Users.Model.csproj" />
+    <ProjectReference Include="..\UserService\User.Repository\Users.Repository.csproj" />
+    <ProjectReference Include="..\UserService\Users.DbMigrator\Users.DbMigrator.csproj" />
+  </ItemGroup>
+
+  
+
+  <ItemGroup>
+    <Folder Include="Address\" />
   </ItemGroup>
 
 </Project>

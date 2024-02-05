@@ -13,3 +13,12 @@ C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.dl
 C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\refint\Users.Application.dll
 C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.pdb
 C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\ref\Users.Application.dll
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.DbMigrator.deps.json
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.DbMigrator.runtimeconfig.json
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.DbMigrator.exe
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\appsettings.json
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.DbMigrator.dll
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.Repository.dll
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.Repository.pdb
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.DbMigrator.pdb
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.sourcelink.json

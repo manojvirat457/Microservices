@@ -375,7 +375,9 @@
       },
       "Users.Application/1.0.0": {
         "dependencies": {
-          "Users.Model": "1.0.0"
+          "Users.DbMigrator": "1.0.0",
+          "Users.Model": "1.0.0",
+          "Users.Repository": "1.0.0"
         },
         "runtime": {
           "Users.Application.dll": {}
@@ -395,6 +397,15 @@
       "Users.Model/1.0.0": {
         "runtime": {
           "Users.Model.dll": {}
+        }
+      },
+      "Users.Repository/1.0.0": {
+        "dependencies": {
+          "Users.DbMigrator": "1.0.0",
+          "Users.Model": "1.0.0"
+        },
+        "runtime": {
+          "Users.Repository.dll": {}
         }
       }
     }
@@ -773,6 +784,11 @@
       "sha512": ""
     },
     "Users.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Users.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

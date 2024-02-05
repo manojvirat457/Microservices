@@ -1,5 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Users.Application.User;
 using Users.DbMigrator;
+using Users.Repository.AddressRepository;
+using Users.Repository.UserRepository;
 
 namespace Users.Service
 {
@@ -44,6 +47,9 @@ namespace Users.Service
         {
             services.AddDbContext<DBContext>(options =>
         options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IAddressRepository, AddressRepository>();
         }
     }
 }

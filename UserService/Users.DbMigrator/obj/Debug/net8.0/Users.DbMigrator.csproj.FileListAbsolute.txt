@@ -56,3 +56,4 @@ C:\Manoj\Projects\dotnet\UserService\Users.DbMigrator\obj\Debug\net8.0\Users.DbM
 C:\Manoj\Projects\dotnet\UserService\Users.DbMigrator\obj\Debug\net8.0\Users.DbMigrator.genruntimeconfig.cache
 C:\Manoj\Projects\dotnet\UserService\Users.DbMigrator\obj\Debug\net8.0\ref\Users.DbMigrator.dll
 C:\Manoj\Projects\dotnet\UserService\Users.DbMigrator\bin\Debug\net8.0\appsettings.json
+C:\Manoj\Projects\dotnet\UserService\Users.DbMigrator\obj\Debug\net8.0\Users.DbMigrator.sourcelink.json

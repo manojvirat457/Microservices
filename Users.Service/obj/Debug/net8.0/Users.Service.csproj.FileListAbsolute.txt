@@ -46,3 +46,6 @@ C:\Manoj\Projects\dotnet\Users.Service\obj\Debug\net8.0\refint\Users.Service.dll
 C:\Manoj\Projects\dotnet\Users.Service\obj\Debug\net8.0\Users.Service.pdb
 C:\Manoj\Projects\dotnet\Users.Service\obj\Debug\net8.0\Users.Service.genruntimeconfig.cache
 C:\Manoj\Projects\dotnet\Users.Service\obj\Debug\net8.0\ref\Users.Service.dll
+C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Users.Repository.dll
+C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Users.Repository.pdb
+C:\Manoj\Projects\dotnet\Users.Service\obj\Debug\net8.0\Users.Service.sourcelink.json
