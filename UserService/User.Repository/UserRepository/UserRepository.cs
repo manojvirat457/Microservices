@@ -16,9 +16,17 @@ namespace Users.Repository.UserRepository
         {
         }
 
-        public async Task<IEnumerable<User>> GetAllUser()
+        public void AddUser(User user)
         {
-            var con = await _dbContext.Users.ToListAsync();
+            _dbContext.Users.Add(user);
+            _dbContext.SaveChanges();
+        }
+
+        public async Task<List<User>> GetAllUser()
+        {
+            var con = await _dbContext.Users
+                .Include(x => x.Address)
+                .ToListAsync();
             return con.ToList();
         }
     }

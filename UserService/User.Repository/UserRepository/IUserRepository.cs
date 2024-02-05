@@ -9,6 +9,8 @@ namespace Users.Repository.UserRepository
 {
     public interface IUserRepository
     {
-        Task<IEnumerable<User>> GetAllUser();
+        Task<List<User>> GetAllUser();
+
+        void AddUser(User user);
     }
 }

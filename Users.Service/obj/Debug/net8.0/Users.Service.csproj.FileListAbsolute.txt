@@ -15,10 +15,8 @@ C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Users.Service.deps.json
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Users.Service.runtimeconfig.json
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Users.Service.dll
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Users.Service.pdb
-C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Humanizer.dll
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Manoj\Projects\dotnet\Users.Service\bin\Debug\net8.0\Npgsql.dll

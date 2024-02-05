@@ -16,7 +16,13 @@ namespace Users.Repository.AddressRepository
         {
         }
 
-        public async Task<IEnumerable<Address>> GetAllAddress()
+        public void CreateAddress(Address address)
+        {
+            _dbContext.Address.Add(address);
+            _dbContext.SaveChanges();
+        }
+
+        public async Task<List<Address>> GetAllAddress()
         {
             return await _dbContext.Address.ToListAsync();
         }

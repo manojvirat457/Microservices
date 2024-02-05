@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Users.Application.User;
 using Users.DbMigrator;
 using Users.Repository.AddressRepository;
 using Users.Repository.UserRepository;

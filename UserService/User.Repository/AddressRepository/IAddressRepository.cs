@@ -9,6 +9,7 @@ namespace Users.Repository.AddressRepository
 {
     public interface IAddressRepository
     {
-        Task<IEnumerable<Address>> GetAllAddress();
+        Task<List<Address>> GetAllAddress();
+        void CreateAddress(Address address);
     }
 }

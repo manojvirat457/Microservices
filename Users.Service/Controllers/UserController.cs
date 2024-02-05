@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Users.Application.User;
 using Users.Model;
 using Users.Repository.AddressRepository;
 using Users.Repository.UserRepository;
@@ -26,15 +25,34 @@ namespace Users.Service.Controllers
             _addressRepository = addressRepository;
         }
 
-        [HttpGet(Name = "list")]
-        public IEnumerable<User> GetAll()
+        [HttpGet]
+        [Route("/GetAll")]
+        public List<User> GetAll()
         {
             return _userApplication.GetAllUser().Result;
         }
 
-        public IEnumerable<Address> GetAllAddress()
+        [HttpGet]
+        [Route("/GetAllAddress")]
+        public List<Address> GetAllAddress()
         {
             return _addressRepository.GetAllAddress().Result;
+        }
+
+        [HttpPost]
+        [Route("/CreateAddress")]
+        public string CreateAddress([FromBody]Address address)
+        {
+            _addressRepository.CreateAddress(address);
+            return "Address Saved";
+        }
+
+        [HttpPost]
+        [Route("/CreateUser")]
+        public string CreateUser([FromBody] User user)
+        {
+            _userApplication.AddUser(user);
+            return "User Saved";
         }
     }
 }

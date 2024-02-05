@@ -5,6 +5,7 @@ C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\Users.Model.GeneratedMSBui
 C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\Users.Model.AssemblyInfoInputs.cache
 C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\Users.Model.AssemblyInfo.cs
 C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\Users.Model.csproj.CoreCompileInputs.cache
+C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\Users.Model.sourcelink.json
 C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\Users.Model.dll
 C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\refint\Users.Model.dll
 C:\Manoj\Projects\dotnet\Users.Model\obj\Debug\net8.0\Users.Model.pdb
