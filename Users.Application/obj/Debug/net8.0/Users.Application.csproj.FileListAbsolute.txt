@@ -1,0 +1,15 @@
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.Application.deps.json
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.Application.dll
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.Application.pdb
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.Model.dll
+C:\Manoj\Projects\dotnet\Users.Application\bin\Debug\net8.0\Users.Model.pdb
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.csproj.AssemblyReference.cache
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.AssemblyInfoInputs.cache
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.AssemblyInfo.cs
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.csproj.CoreCompileInputs.cache
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.csproj.CopyComplete
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.dll
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\refint\Users.Application.dll
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\Users.Application.pdb
+C:\Manoj\Projects\dotnet\Users.Application\obj\Debug\net8.0\ref\Users.Application.dll

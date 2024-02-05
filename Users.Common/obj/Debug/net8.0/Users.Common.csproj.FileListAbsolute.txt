@@ -1,0 +1,11 @@
+C:\Manoj\Projects\dotnet\Users.Common\bin\Debug\net8.0\Users.Common.deps.json
+C:\Manoj\Projects\dotnet\Users.Common\bin\Debug\net8.0\Users.Common.dll
+C:\Manoj\Projects\dotnet\Users.Common\bin\Debug\net8.0\Users.Common.pdb
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\Users.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\Users.Common.AssemblyInfoInputs.cache
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\Users.Common.AssemblyInfo.cs
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\Users.Common.csproj.CoreCompileInputs.cache
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\Users.Common.dll
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\refint\Users.Common.dll
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\Users.Common.pdb
+C:\Manoj\Projects\dotnet\Users.Common\obj\Debug\net8.0\ref\Users.Common.dll
