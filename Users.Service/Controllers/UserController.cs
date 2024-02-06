@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Users.Model;
-using Users.Repository.AddressRepository;
-using Users.Repository.UserRepository;
+using Users.Repository;
 
 namespace Users.Service.Controllers
 {
@@ -17,12 +16,13 @@ namespace Users.Service.Controllers
         private readonly ILogger<UserController> _logger;
         private readonly IUserRepository _userApplication;
         private readonly IAddressRepository _addressRepository;
-
-        public UserController(ILogger<UserController> logger, IUserRepository userApplication, IAddressRepository addressRepository)
+        private readonly IBookingRepository _bookingRepository;
+        public UserController(ILogger<UserController> logger, IUserRepository userApplication, IAddressRepository addressRepository, IBookingRepository bookingRepository)
         {
             _logger = logger;
             _userApplication = userApplication;
             _addressRepository = addressRepository;
+            _bookingRepository = bookingRepository;
         }
 
         [HttpGet]
@@ -53,6 +53,22 @@ namespace Users.Service.Controllers
         {
             _userApplication.AddUser(user);
             return "User Saved";
+        }
+
+        [HttpGet]
+        [Route("/GetAllBookings")]
+        public List<Bookings> GetAllBookings()
+        {
+            return _bookingRepository.ListAllBookings().Result;
+        }
+
+        [HttpPost]
+        [Route("/BookSlot")]
+
+        public string BookSlot([FromBody] Bookings Booking)
+        {
+            _bookingRepository.BookSlot(Booking);
+            return "slot Booked";
         }
     }
 }

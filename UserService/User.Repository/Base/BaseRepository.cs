@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Users.DbMigrator;
 using Users.Model;
 
-namespace Users.Repository.Base
+namespace Users.Repository
 {
     public class BaseRepository
     {

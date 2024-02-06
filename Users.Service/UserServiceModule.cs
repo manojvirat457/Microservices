@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Users.DbMigrator;
-using Users.Repository.AddressRepository;
-using Users.Repository.UserRepository;
+using Users.Repository;
 
 namespace Users.Service
 {
@@ -49,6 +48,7 @@ namespace Users.Service
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IAddressRepository, AddressRepository>();
+            services.AddScoped<IBookingRepository, BookingRepository>();
         }
     }
 }

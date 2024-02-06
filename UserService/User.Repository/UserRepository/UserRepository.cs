@@ -6,16 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Users.DbMigrator;
 using Users.Model;
-using Users.Repository.Base;
 
-namespace Users.Repository.UserRepository
+namespace Users.Repository
 {
-    public class UserRepository  : BaseRepository, IUserRepository
+    public class UserRepository(DBContext dbContext) : BaseRepository(dbContext), IUserRepository
     {
-        public UserRepository(DBContext dbContext) : base(dbContext)
-        {
-        }
-
         public void AddUser(User user)
         {
             _dbContext.Users.Add(user);
@@ -29,5 +24,6 @@ namespace Users.Repository.UserRepository
                 .ToListAsync();
             return con.ToList();
         }
+
     }
 }

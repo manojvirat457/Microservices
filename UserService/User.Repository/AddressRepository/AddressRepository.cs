@@ -6,16 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Users.DbMigrator;
 using Users.Model;
-using Users.Repository.Base;
 
-namespace Users.Repository.AddressRepository
+namespace Users.Repository
 {
-    public class AddressRepository : BaseRepository, IAddressRepository
+    public class AddressRepository(DBContext dbContext) : BaseRepository(dbContext), IAddressRepository
     {
-        public AddressRepository(DBContext dbContext) : base(dbContext)
-        {
-        }
-
         public void CreateAddress(Address address)
         {
             _dbContext.Address.Add(address);

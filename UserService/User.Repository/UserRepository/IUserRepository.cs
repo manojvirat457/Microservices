@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Users.Model;
 
-namespace Users.Repository.UserRepository
+namespace Users.Repository
 {
     public interface IUserRepository
     {
